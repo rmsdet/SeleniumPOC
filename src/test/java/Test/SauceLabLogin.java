@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
+import org.testng.annotations.Listeners;
+import BasePackage.TestListner; //This line only tells Java compiler,This class exists, you can use it
+@Listeners(TestListener.class) // Attach this Listener class to this test class, tells testng to execute it
 
 import BasePackage.BaseTest;
 

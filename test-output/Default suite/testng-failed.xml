@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGUse.ParallelTest">
+      <class name="RestAPI.GetAPIValidation">
         <methods>
-          <include name="multipleBrowser"/>
+          <include name="validateResponse"/>
         </methods>
-      </class> <!-- TestNGUse.ParallelTest -->
+      </class> <!-- RestAPI.GetAPIValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
